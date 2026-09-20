@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project 4 | Family Archive</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h2>PROJECT 4</h2>
+            <p>The Dancel Family Archive</p>
+        </div>
+        <nav>
+            <!-- If this file is not in the same folder as index.html, change this to ../index.html#activities -->
+            <a href="index.html#activities">&larr; Portfolio</a>
+            <a href="#home">Home</a>
+            <a href="#family-tree">Family Tree</a>
+            <a href="#stories">Stories</a>
+        </nav>
+    </header>
+
+    <section id="home" class="page-hero">
+        <h1>The Dancel Family Archive</h1>
+        <p>A digital registry of our heritage, stories, and history.</p>
+        <a href="#family-tree" class="btn">Explore the Family Tree</a>
+    </section>
+
+    <section id="family-tree">
+        <h2>Family Tree</h2>
+        <div class="panel">
+            <!-- Replace these placeholder names with your family's names -->
+            <ul class="tree">
+                <li><strong>Grandparents</strong>
+                    <ul>
+                        <li><strong>Parent 1</strong>
+                            <ul>
+                                <li>Child 1</li>
+                                <li>Child 2</li>
+                            </ul>
+                        </li>
+                        <li><strong>Parent 2</strong>
+                            <ul>
+                                <li>Child 3</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="stories">
+        <h2>Stories</h2>
+        <div class="cards">
+            <article class="card">
+                <i class="fa-solid fa-seedling"></i>
+                <h3>Origins</h3>
+                <p>Where our family comes from.</p>
+            </article>
+            <article class="card">
+                <i class="fa-solid fa-book-open"></i>
+                <h3>Traditions</h3>
+                <p>The customs we keep alive.</p>
+            </article>
+            <article class="card">
+                <i class="fa-solid fa-camera-retro"></i>
+                <h3>Milestones</h3>
+                <p>Moments worth remembering.</p>
+            </article>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy;2026 Dwighty's PDM Portfolio. All rights reserved.</p>
+    </footer>
+
+    <button class="back-to-top" id="backToTop" title="Back to Top">
+        <i class="fa-solid fa-arrow-up"></i>
+    </button>
+
+    <script src="script.js"></script>
+</body>
+</html>

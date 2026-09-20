@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project 3 | Responsive Landing Page</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h2>PROJECT 3</h2>
+            <p>Simple responsive landing page</p>
+        </div>
+        <nav>
+            <!-- If this file is not in the same folder as index.html, change this to ../index.html#activities -->
+            <a href="index.html#activities">&larr; Portfolio</a>
+            <a href="#home">Home</a>
+            <a href="#welcome">Welcome</a>
+            <a href="#devices">Screens</a>
+        </nav>
+    </header>
+
+    <section id="home" class="page-hero">
+        <h1>Simple Responsive Landing Page</h1>
+        <p>One page that rearranges itself to fit phones, tablets and desktops.</p>
+        <a href="#welcome" class="btn">See the layout</a>
+    </section>
+
+    <section id="welcome">
+        <div class="layout">
+            <div class="panel">
+                <h3>Welcome!</h3>
+                <p>On a wide screen, this box sits beside the announcements. On a narrow screen, the announcements move below it. Resize your browser window to watch the layout change.</p>
+            </div>
+            <aside class="panel" id="announcements">
+                <h3>Announcements</h3>
+                <ul>
+                    <li>Class schedule</li>
+                    <li>Project deadlines</li>
+                    <li>School events</li>
+                </ul>
+            </aside>
+        </div>
+    </section>
+
+    <section id="devices">
+        <h2>Fits Every Screen</h2>
+        <div class="cards">
+            <article class="card">
+                <i class="fa-solid fa-mobile-screen"></i>
+                <h3>Phone</h3>
+                <p>Everything stacks in one column.</p>
+            </article>
+            <article class="card">
+                <i class="fa-solid fa-tablet-screen-button"></i>
+                <h3>Tablet</h3>
+                <p>Cards wrap into rows as space allows.</p>
+            </article>
+            <article class="card">
+                <i class="fa-solid fa-desktop"></i>
+                <h3>Desktop</h3>
+                <p>The sidebar sits next to the main content.</p>
+            </article>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy;2026 Dwighty's PDM Portfolio. All rights reserved.</p>
+    </footer>
+
+    <button class="back-to-top" id="backToTop" title="Back to Top">
+        <i class="fa-solid fa-arrow-up"></i>
+    </button>
+
+    <script src="script.js"></script>
+</body>
+</html>

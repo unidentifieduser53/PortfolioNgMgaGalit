@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project 2 | Student Personal Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h2>PROJECT 2</h2>
+            <p>Transitions and external CSS</p>
+        </div>
+        <nav>
+            <!-- If this file is not in the same folder as index.html, change this to ../index.html#activities -->
+            <a href="index.html#activities">&larr; Portfolio</a>
+            <a href="#home">Home</a>
+            <a href="#welcome">Welcome</a>
+            <a href="#profile">My Profile</a>
+        </nav>
+    </header>
+
+    <section id="home" class="page-hero">
+        <h1>Student Personal Website</h1>
+        <p>Welcome to my website.</p>
+    </section>
+
+    <section id="welcome">
+        <div class="layout">
+            <div class="panel">
+                <h3>Welcome!</h3>
+                <p>This is my first personal website. It uses an external CSS file, so every page shares the same look, and it uses transitions so boxes, links and buttons change smoothly when you hover over them.</p>
+                <p>Move your mouse over the panels and the nav links to see the transitions at work.</p>
+            </div>
+            <aside class="panel" id="announcements">
+                <h3>Announcements</h3>
+                <ul>
+                    <li><strong>Quiz</strong><br>Next meeting. Review your notes.</li>
+                    <li><strong>Activity</strong><br>Submit your work before the deadline.</li>
+                </ul>
+            </aside>
+        </div>
+    </section>
+
+    <section id="profile">
+        <h2>My Profile</h2>
+        <div class="panel">
+            <ul>
+                <li><strong>Name: </strong>Dwight Zachkarry Paul S. Peñano</li>
+                <li><strong>Section: </strong>BSIT31A</li>
+                <li><strong>Student Number: </strong>PDM 2024-003644</li>
+            </ul>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy;2026 Dwighty's PDM Portfolio. All rights reserved.</p>
+    </footer>
+
+    <button class="back-to-top" id="backToTop" title="Back to Top">
+        <i class="fa-solid fa-arrow-up"></i>
+    </button>
+
+    <script src="script.js"></script>
+</body>
+</html>
